@@ -40,8 +40,8 @@ module.exports = {
         rules: [
             //这条语句的意思是：匹配到后缀名为 .css文件时，使用'style-loader', 'css-loader'处理该文件
             { test: /\.css$/, use: ['style-loader', 'css-loader'] },
-            { test: /\.scss$/, use: ['style-loader', 'sass-loader'] },
-            { test: /\.less$/, use: ['style-loader', 'less-loader'] },
+            { test: /\.scss$/, use: ['style-loader', 'css-loader', 'sass-loader'] },
+            { test: /\.less$/, use: ['style-loader', 'css-loader', 'less-loader'] },
             { test: /\.(jpg|png|gif|bmp|jpeg)$/, use: 'url-loader?limit=7000&name=[name].[ext]' },
             { test: /\.(ttf|eot|svg|woff|woff2)$/, use: 'url-loader' },
             { test: /\.js$/, use: 'babel-loader', exclude: /node_modules/ },
