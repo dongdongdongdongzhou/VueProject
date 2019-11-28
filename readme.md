@@ -12,8 +12,8 @@
 2. 设置路由高亮
 3. 点击  tabbar 中的路由链接，展示对应的组件
 4. 获取首页轮播图数据，如何获取？使用vue-resource
-    4.1 使用vue-resource 的 this.$http.get 获取数据
-    4.2 获取到的数据保存到 data 身上
-    4.3 使用v-for 循环渲染每个 item 项
+    + 4.1 使用vue-resource 的 this.$http.get 获取数据
+    + 4.2 获取到的数据保存到 data 身上
+    + 4.3 使用v-for 循环渲染每个 item 项
 5. 修改 body 背景颜色
 6. 为 tabbar 的切换设置动画
